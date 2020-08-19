@@ -1,0 +1,758 @@
+@import url("https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i");
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+body{
+    background:#f0f0f0
+}
+hr{
+    border-top:1px solid #e0e0e0
+}
+.box{
+    border-radius:3px;
+    background-color:#fff;
+    box-shadow:0px 3px 2px 0px rgba(0,0,0,0.06)
+}
+.overflow{
+    overflow:hidden
+}
+.padding-10{
+    padding:10px
+}
+.padding-15{
+    padding:15px
+}
+.padding-20{
+    padding:20px
+}
+.padding-25{
+    padding:25px
+}
+.padding-30{
+    padding:30px
+}
+.break-10{
+    margin-left:-10px;
+    margin-right:-10px
+}
+.break-15{
+    margin-left:-15px;
+    margin-right:-15px
+}
+.break-20{
+    margin-left:-20px;
+    margin-right:-20px
+}
+.break-25{
+    margin-left:-25px;
+    margin-right:-25px
+}
+h1.interno{
+    font-size:28px;
+    font-weight:bold;
+    margin-bottom:0;
+    margin-top:10px
+}
+.form-control{
+    height:40px;
+    border-radius:3px;
+    color:#444
+}
+.btn{
+    height:40px;
+    border-radius:3px;
+    font-family:'Arimo', sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    border:none;
+    line-height:2
+}
+.btn-facebook{
+    background:#3b5998;
+    color:#FFF;
+    font-weight:normal;
+    font-size:14px
+}
+.btn-facebook:hover,.btn-facebook:active,.btn-facebook:focus{
+    color:#FFF;
+    background:#22396a
+}
+.btn-primary{
+    background:#933;
+    border:none
+}
+.btn-primary:hover{
+    background:#641c1c
+}
+.btn-primary:active{
+    background:#f93
+}
+.btn-primary.active{
+    background:#f93
+}
+.btn-primary:focus{
+    background:#f93 !important
+}
+.btn-default{
+    background:none;
+    line-height:1.8;
+    border:#933 solid 2px;
+    color:#933
+}
+.btn-default:hover{
+    color:#c33;
+    border:#c33 solid 2px;
+    background:none
+}
+a{
+    color:#c33
+}
+a:hover{
+    color:#f93;
+    text-decoration:none
+}
+a:active{
+    text-decoration:none
+}
+a:focus{
+    text-decoration:none;
+    font-weight:bold
+}
+.corpo{
+    margin-top:100px
+}
+.breadcrumb{
+    background:none;
+    margin-bottom:30px;
+    border-bottom:solid 1px #dadada;
+    padding:8px 0;
+    font-size:13px;
+    font-weight:bold
+}
+.breadcrumb>li+li:before{
+    content:'\F105';
+    font-family:"FontAwesome";
+    font-size:14px
+}
+.breadcrumb li:first-child{
+    font-family:"FontAwesome"
+}
+.listaParceiros div{
+    margin-bottom:30px
+}
+body{
+    font-family:'Arimo', sans-serif;
+    font-size:14px
+}
+.bgSite{
+    background:url("../img/bg-login.jpg") no-repeat top center;
+    background-size:cover;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    overflow:auto
+}
+.pg-login .logo{
+    padding-top:35px
+}
+.pg-login .logo img{
+    margin-left:30px
+}
+.pg-login .boxLogin{
+    padding-top:100px
+}
+.pg-login .boxLogin label{
+    font-size:14px;
+    color:#666;
+    font-weight:normal
+}
+.pg-login .boxLogin button.btn-primary{
+    font-size:16px;
+    line-height:1.6
+}
+.pg-login h1{
+    font-size:18px;
+    color:#333;
+    font-weight:bold;
+    line-height:1.333;
+    text-align:center;
+    margin:0;
+    padding:0
+}
+.pg-login h2{
+    font-weight:normal;
+    color:#666;
+    font-size:16px;
+    text-align:center;
+    margin:0;
+    padding:0;
+    margin-bottom:10px;
+    margin-top:5px
+}
+.pg-login .crieConta{
+    font-weight:normal;
+    color:#666;
+    font-size:16px;
+    text-align:center;
+    margin:0;
+    padding:0
+}
+.pg-login .crieConta a{
+    font-weight:bold
+}
+.pg-login footer{
+    color:#FFF;
+    width:100%;
+    margin-top:40px;
+    position:absolute;
+    bottom:30px
+}
+.pg-login footer p{
+    margin-bottom:0
+}
+.pg-login footer ul>li{
+    display:inline-block;
+    margin-right:25px
+}
+.pg-login footer ul>li a{
+    color:#FFF
+}
+.pg-login footer ul>li a:hover{
+    color:#FFF;
+    text-decoration:underline
+}
+.pg-cadastro .logo img{
+    width:170px !important;
+    margin-left:-15px;
+    margin-bottom:30px
+}
+.pg-cadastro .btn-primary{
+    font-size:16px !important;
+    line-height:1.6
+}
+.topo{
+    background-color:#933;
+    border-bottom:solid 2px #881f1f;
+    height:70px;
+    color:#FFF;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:999
+}
+.topo .logo img{
+    width:96px;
+    margin-top:8px
+}
+.topo nav.menu{
+    line-height:4
+}
+.topo nav.menu ul li{
+    display:inline-block;
+    font-weight:regular;
+    color:#FFF;
+    font-size:18px;
+    margin:0 5px
+}
+.topo nav.menu ul li a{
+    font-weight:regular;
+    color:#FFF;
+    font-size:18px;
+    padding:0 20px;
+    display:inline-block;
+    height:68px
+}
+.topo nav.menu ul li a:hover{
+    border-bottom:solid 4px #fc3
+}
+.topo nav.menu ul li a.active{
+    font-weight:bold;
+    border-bottom:solid 4px #fc3
+}
+.topo .busca{
+    margin-top:16px
+}
+.topo .busca .form-control{
+    border-radius:3px;
+    background-color:#fff;
+    box-shadow:0px 1px 3px 0px rgba(0,0,0,0.2);
+    height:38px;
+    border:none
+}
+.topo .busca button{
+    font-family:'FontAwesome';
+    border:none;
+    background:none;
+    font-size:18px;
+    color:#828282;
+    float:right;
+    margin-top:-33px;
+    margin-right:5px
+}
+.topo .user .userMenu{
+    display:table-cell;
+    color:#FFF;
+    height:68px;
+    vertical-align:middle;
+    padding:0 5px;
+    width:100%;
+    text-align:center
+}
+.topo .user .userMenu:hover{
+    background:rgba(255,255,255,0.2)
+}
+.topo .user .avatar{
+    width:34px;
+    height:34px;
+    border-radius:50%;
+    margin-right:5px
+}
+.topo .user span{
+    font-weight:bold;
+    font-size:14px
+}
+.filtro .btn-primary{
+    padding-left:30px;
+    padding-right:30px
+}
+.filtro .listFiltro{
+    margin-top:12px
+}
+.filtro .listFiltro li{
+    display:inline-block;
+    margin-right:30px;
+    font-size:13px
+}
+.filtro .listFiltro li a{
+    color:#c33
+}
+.filtro .listFiltro li a:hover{
+    color:#f93
+}
+.filtro .listFiltro li a:active,.filtro .listFiltro li a.active{
+    color:#641c1c;
+    font-weight:bold
+}
+.filtro hr{
+    margin-top:12px
+}
+.feed .timeline article{
+    margin-bottom:30px
+}
+.feed .timeline article header{
+    display:block;
+    clear:both;
+    width:100%;
+    min-height:60px;
+    margin-bottom:18px
+}
+.feed .timeline article header img.avatar{
+    float:left;
+    margin-right:15px
+}
+.feed .timeline article header h2{
+    font-size:16px;
+    color:#666666;
+    font-weight:normal;
+    margin-bottom:0px;
+    margin-top:0
+}
+.feed .timeline article header h2 a{
+    font-weight:bold;
+    color:#333
+}
+.feed .timeline article header h2 a:hover{
+    color:#c33
+}
+.feed .timeline article header p{
+    margin:0;
+    color:#666
+}
+.feed .timeline article header p small{
+    color:#999;
+    font-size:12px
+}
+.feed .timeline article>p{
+    font-size:16px;
+    color:#666;
+    line-height:1.5
+}
+.feed .timeline article footer hr{
+    margin-top:20px;
+    margin-bottom:10px
+}
+.feed .timeline article footer ul{
+    margin:0;
+    margin-bottom:-3px
+}
+.feed .timeline article footer ul li{
+    display:inline-block;
+    margin-right:30px
+}
+.feed .timeline article footer ul li a{
+    font-weight:bold;
+    font-size:13px
+}
+.feed .timeline article footer ul li a.active{
+    color:#641c1c
+}
+.ads{
+    position:relative;
+    width:330px
+}
+.ads.ad-fixed{
+    position:fixed;
+    top:85px
+}
+.ads .banner{
+    margin-bottom:30px
+}
+.ads .auxLinks{
+    font-size:13px
+}
+.rodape{
+    background:#434343;
+    padding:30px 0 20px;
+    color:#fff;
+    margin-top:130px;
+    position:relative;
+    z-index:100
+}
+.rodape .logo{
+    width:130px;
+    margin-bottom:25px
+}
+.rodape ul li{
+    color:#FFF;
+    font-weight:bold;
+    font-size:16px;
+    line-height:30px
+}
+.rodape ul li a{
+    font-weight:normal;
+    color:#DDD;
+    font-size:14px
+}
+.rodape ul li a:hover{
+    text-decoration:underline
+}
+.subRodape{
+    color:#bbbbbb;
+    font-size:12px;
+    background:#4c4c4c;
+    padding:15px 0;
+    position:relative;
+    z-index:100
+}
+.itemAbrigo,.itemCasos{
+    margin-bottom:30px
+}
+.itemAbrigo .box,.itemCasos .box{
+    height:175px
+}
+.itemAbrigo img,.itemCasos img{
+    display:inline-block;
+    float:left;
+    border-radius:3px 0 0 3px
+}
+.itemAbrigo img:hover,.itemCasos img:hover{
+    opacity:0.75
+}
+.itemAbrigo div[class*='padding-'],.itemCasos div[class*='padding-']{
+    overflow:hidden
+}
+.itemAbrigo a,.itemCasos a{
+    font-weight:bold
+}
+.itemAbrigo p,.itemCasos p{
+    font-size:14px;
+    color:#666;
+    line-height:1.4;
+    margin-bottom:8px
+}
+.itemAbrigo p.link,.itemCasos p.link{
+    font-size:13px
+}
+.itemAbrigo h2,.itemCasos h2{
+    font-size:16px;
+    color:#000;
+    font-weight:bold;
+    margin-bottom:0px;
+    margin-top:0
+}
+.itemAbrigo h2 a,.itemCasos h2 a{
+    font-weight:bold;
+    color:#333
+}
+.itemAbrigo h2 a:hover,.itemCasos h2 a:hover{
+    color:#c33
+}
+.colAbrigo .abrigoAvatar img{
+    border-radius:3px
+}
+.colAbrigo h1{
+    font-size:20px;
+    font-weight:bold;
+    margin-top:10px;
+    color:#000;
+    margin-bottom:0px
+}
+.colAbrigo h1 a{
+    color:#000
+}
+.colAbrigo h1 a:hover{
+    text-decoration:underline
+}
+.colAbrigo .local{
+    color:#666;
+    font-size:14px;
+    margin-bottom:15px
+}
+.colAbrigo p{
+    font-size:14px;
+    color:#666
+}
+.colAbrigo nav.abrigoMenu{
+    margin:30px 0
+}
+.colAbrigo nav.abrigoMenu ul li{
+    margin-bottom:12px;
+    padding-bottom:12px;
+    border-bottom:solid 1px #dadada;
+    font-size:14px;
+    font-weight:bold
+}
+.pagAbrigo .materia p{
+    font-size:16px;
+    line-height:1.8;
+    margin-bottom:25px
+}
+.pagAbrigo .gMaps{
+    border:solid 1px #dadada;
+    box-sizing:border-box
+}
+.pagCaso .casoHero{
+    position:relative;
+    border-radius:3px;
+    box-shadow:0px 3px 2px 0px rgba(0,0,0,0.06);
+    margin-bottom:30px
+}
+.pagCaso .casoHero img{
+    border-radius:3px
+}
+.pagCaso .casoHero .casoNome{
+    position:absolute;
+    width:100%;
+    padding:40px 20px 20px;
+    bottom:0;
+    color:#FFF;
+    background:-moz-linear-gradient(top, rgba(229,229,229,0) 0%, rgba(0,0,0,0.5) 99%, rgba(0,0,0,0.5) 100%);
+    background:-webkit-linear-gradient(top, rgba(229,229,229,0) 0%, rgba(0,0,0,0.5) 99%, rgba(0,0,0,0.5) 100%);
+    background:linear-gradient(to bottom, rgba(229,229,229,0) 0%, rgba(0,0,0,0.5) 99%, rgba(0,0,0,0.5) 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e5e5e5', endColorstr='#80000000',GradientType=0 )
+}
+.pagCaso .casoHero .casoNome .abrigoAvatar{
+    float:left;
+    margin-right:15px
+}
+.pagCaso .casoHero .casoNome h1{
+    font-size:21px;
+    color:#fff;
+    font-weight:bold;
+    line-height:1;
+    margin:0 0 2px 0
+}
+.pagCaso .casoHero .casoNome .abrigoNome{
+    font-weight:bold
+}
+.pagCaso .casoHero .casoNome .abrigoNome a{
+    color:#FFF
+}
+.pagCaso .casoHero .casoNome .abrigoNome a:hover{
+    text-decoration:underline
+}
+.pagCaso .casoHero .casoNome .local{
+    font-weight:normal
+}
+.pagCaso .abrigoResp img{
+    float:left;
+    margin-right:15px
+}
+.pagCaso .abrigoResp .local{
+    color:#888
+}
+.pagCaso .casoAcompanhe h2{
+    font-size:20px;
+    color:#000;
+    font-weight:bold;
+    line-height:2.4;
+    margin-top:0
+}
+.pagCaso .casoAcompanhe h3{
+    font-size:16px;
+    color:#000;
+    font-weight:bold;
+    line-height:2.4;
+    margin-bottom:0px;
+    margin-top:0
+}
+.pagCaso .casoAcompanhe p{
+    color:#666
+}
+.pagCaso .casoAcompanhe .casoFoto{
+    float:left;
+    margin-right:15px;
+    border-radius:3px
+}
+.pagCaso .casoAcompanhe .casoData{
+    font-weight:bold;
+    color:#000;
+    text-align:right
+}
+.pagCaso .casoAcompanhe .casoData span{
+    color:#888;
+    font-weight:normal
+}
+.pagCaso .casoAcompanhe .casoTL{
+    margin-bottom:30px
+}
+.pagCaso .btn-atualiza{
+    float:right;
+    margin-top:-50px
+}
+.cadastro h1{
+    font-weight:bold;
+    margin-top:0px;
+    margin-bottom:25px;
+    font-size:28px
+}
+.cadastro form label{
+    color:#555;
+    font-weight:normal
+}
+.cadastro form fieldset{
+    margin-top:40px
+}
+.cadastro form fieldset legend{
+    font-size:18px;
+    font-weight:bold
+}
+.cadastro form input[type='file']{
+    padding:8px
+}
+.cadastro .btn{
+    padding:10px 30px;
+    height:auto
+}
+@media (max-width: 768px){
+    header.topo .menuMobile{
+        font-size:31px;
+        color:#FFF;
+        padding:14px 20px 12px 0;
+        display:inline-block
+    }
+    header.topo .menuMobile:hover{
+        color:#CCC
+    }
+    header.topo .logo img{
+        margin-left:-20px
+    }
+    .feed .timeline article footer ul li{
+        width:30%;
+        margin-right:3%;
+        text-align:center;
+        vertical-align:middle
+    }
+    .feed .timeline article footer ul li:last-child{
+        margin-right:0
+    }
+    .filtro .btn-primary{
+        width:100%;
+        margin-bottom:20px
+    }
+    .listFiltro{
+        text-align:center
+    }
+    .listFiltro li{
+        width:32%;
+        margin:0 !important;
+        text-align:center
+    }
+    .itemAbrigo .box,.itemCasos .box{
+        height:auto
+    }
+    .itemAbrigo img,.itemCasos img{
+        width:33%
+    }
+    .colAbrigo .banner{
+        text-align:center;
+        margin-bottom:25px
+    }
+    .colAbrigo .banner img{
+        display:inline-block;
+        text-align:center
+    }
+    .rodape .text-right{
+        text-align:center
+    }
+    .rodape .img-responsive{
+        display:inline-block;
+        text-align:center
+    }
+    .pg-login .logo{
+        text-align:center
+    }
+    .pg-login .logo img{
+        margin:0
+    }
+    .pg-login .boxLogin{
+        padding-top:30px
+    }
+    .pg-login footer{
+        position:relative;
+        margin-top:55px
+    }
+    .pg-cadastro{
+        margin-bottom:80px
+    }
+    .pg-cadastro .logo{
+        margin-bottom:30px
+    }
+}
+@media (max-width: 991px) and (min-width: 768px){
+    header.topo .menuMobile{
+        font-size:31px;
+        color:#FFF;
+        padding:14px 20px 12px 0;
+        display:inline-block
+    }
+    header.topo .menuMobile:hover{
+        color:#CCC
+    }
+    .itemAbrigo .box,.itemCasos .box{
+        height:260px
+    }
+    .itemAbrigo img,.itemCasos img{
+        width:33%
+    }
+    .pg-login .logo{
+        text-align:center
+    }
+    .pg-login .logo img{
+        margin:0
+    }
+    .pg-login .boxLogin{
+        padding-top:30px
+    }
+    .pg-login footer{
+        position:relative;
+        margin-top:55px
+    }
+    .pg-cadastro{
+        margin-bottom:80px
+    }
+    .pg-cadastro .logo{
+        margin-bottom:30px
+    }
+}
+ 
