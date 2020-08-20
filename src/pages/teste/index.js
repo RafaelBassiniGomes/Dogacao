@@ -6,7 +6,7 @@ export default function teste() {
       <div className="row">
         <div className="col-md-12 col-lg-12 ">
           <select name="" id="" className="form-control">
-            <option value="">Todos os estados</option>
+            <option value="">Todos os estados do Brasil</option>
           </select>
           <hr />
         </div>
